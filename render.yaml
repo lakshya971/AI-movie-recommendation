@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: movie-recommender
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: bash start.sh
+    envVars:
+      - key: API_BASE
+        value: http://127.0.0.1:8000
+      - key: TMDB_API_KEY
+        sync: false
+      - key: PYTHON_VERSION
+        value: 3.11.9
