@@ -8,3 +8,5 @@ scipy
 scikit-learn
 streamlit
 requests
+groq
+sentence-transformers

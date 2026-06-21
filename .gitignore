@@ -5,3 +5,5 @@ __pycache__
 movies_metadata.csv
 movies.ipynb
 set_up.txt
+movie_rec.db
+data/movielens/
